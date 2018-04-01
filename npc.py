@@ -19,7 +19,7 @@ class Dragon(Role):
 	def __init__(self):
 		self.hp=200
 		self.defence=35
-		self.attack=30
+		self.attack=40
 	def setHp(self,newHp):
 		self.hp=newHp
 	def setAttack(self):	
@@ -28,8 +28,8 @@ class Dragon(Role):
 		pass
 class Player(Role):
 	def __init__(self):
-		self.hp=100
-		self.defence=20
+		self.hp=80
+		self.defence=10
 		self.attack=15
 	def setHp(self,newHp):
 		self.hp=newHp

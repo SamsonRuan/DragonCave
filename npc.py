@@ -33,11 +33,21 @@ class Player(Role):
 		self.attack=15
 	def setHp(self,newHp):
 		self.hp=newHp
+	def setAttack(self,deltaAttack):	
+		self.attack=self.attack+deltaAttack
+	def setDefence(self,deltaDefence):
+		self.defence=self.defence+deltaDefence
+class Beaset(Role):
+	def __init__():
+		self.hp=50
+		self.defence=12
+		self.attack=8
+	def setHp(self,newHp):
+		self.hp=newHp
 	def setAttack(self):	
 		pass
 	def setDefence(self):
 		pass
-	
 	
 		
 		
